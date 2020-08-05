@@ -1,9 +1,12 @@
 // Write your solution here!
 const append = ["Milo", "Otis", "Garfield"];
-append.push()
+append.push("Odie");
 
 const prepend = ["Milo", "Otis", "Garfield"];
+prepend.unshift("Odie");
 
 const removeFirst = ["Milo", "Otis", "Garfield"];
+removeFirst.shift();
 
 const removeLast = ["Milo", "Otis", "Garfield"];
+removeLast.pop();
